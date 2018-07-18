@@ -10,6 +10,7 @@ export class CreateEmployeeComponent implements OnInit {
 
   // isActive = true;
   // gender = 'male';
+  // department = '3';
 
   constructor() { }
 
