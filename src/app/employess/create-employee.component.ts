@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '../../../node_modules/@angular/forms';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-create-employee',
@@ -7,6 +7,8 @@ import { NgForm } from '../../../node_modules/@angular/forms';
   styleUrls: ['./create-employee.component.css']
 })
 export class CreateEmployeeComponent implements OnInit {
+
+  gender = 'male';
 
   constructor() { }
 
